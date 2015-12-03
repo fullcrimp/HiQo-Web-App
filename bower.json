@@ -1,0 +1,28 @@
+{
+  "name": "Markable-webapp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/instantag/Markable-webapp",
+  "authors": [
+    "fullcrimp"
+  ],
+  "description": "markable web application based on angular",
+  "main": "/public/index.html",
+  "keywords": [
+    "MARKABLE",
+    "eCommerce",
+    "Visual Search",
+    "Image Recognition"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15"
+  },
+  "devDependencies": {}
+}

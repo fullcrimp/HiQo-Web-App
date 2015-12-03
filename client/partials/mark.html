@@ -1,0 +1,12 @@
+<div class="cropArea">
+  <img-crop
+    image="srcImage"
+    result-image="myCroppedImage"
+   change-on-fly="true"
+   area-type="square"></img-crop>
+</div>
+
+<div class="fixed">
+    <img ng-src="{{myCroppedImage}}" />
+    <a href="#" class="btn btn-primary" role="button">Find it</a>
+</div>

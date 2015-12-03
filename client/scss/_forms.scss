@@ -1,0 +1,53 @@
+
+.btn {
+    font-family: 'Lato';
+    border-radius: 6px;
+    border: 0 none;
+    text-transform: uppercase;
+    font-family: Lato;
+    color: #fff;
+}
+
+// .btn:focus, .btn:active:focus, .btn.active:focus {
+//     outline: 0 none;
+// }
+//
+.btn-primary {
+    background: #65cdbd;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #65cdbd;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #5dc4b4;
+    box-shadow: none;
+}
+
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+input.form-control,
+input[readonly] {
+    border: 0;
+}

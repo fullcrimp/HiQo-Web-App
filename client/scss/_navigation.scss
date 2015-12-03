@@ -1,0 +1,56 @@
+#collapsingNavbarTop {
+    background-color: #111;
+
+
+    ul.nav.nav-pills.nav-stacked {
+        a.nav-link {
+            font-weight: 400;
+            letter-spacing: 2px;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: $color-white;
+
+            &.active {
+                background-color: $color-brand-dark;
+            }
+        }
+    }
+}
+
+.navbar {
+     z-index: 3;
+    background-color: $color-black;
+    color: $color-white;
+    border-radius: 0;
+
+    a.navbar-brand {
+        img {
+            width: 140px;
+        }
+    }
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: $color-black;
+    padding: 10px;
+    font-size: 14px;
+
+    @include mobile {
+        text-align: center;
+    }
+
+    a {
+        font-weight: 400;
+        color: $color-white;
+
+        &:hover {
+            color: $color-white;
+            text-decoration: underline;
+        }
+        &:visited {
+            color: $color-white;
+        }
+    }
+}

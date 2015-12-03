@@ -1,0 +1,42 @@
+{
+  "name": "markable-webapp",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "private": true,
+  "description": "markable web application based on angular",
+  "scripts": {
+    "start": "node ./server/router.js dev",
+    "test": "node ./server/router.js production",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instantag/HiQo-Web-App.git"
+  },
+  "keywords": [
+    "MARKABLE",
+    "eCommerce",
+    "Visual Search",
+    "Image Recognition"
+  ],
+  "author": "fullcrimp",
+  "bugs": {
+    "url": "https://github.com/instantag/HiQo-Web-App/issues"
+  },
+  "homepage": "https://github.com/instantag/HiQo-Web-App",
+  "devDependencies": {
+    "bower": "^1.6.3",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-flatten": "^0.2.0",
+    "gulp-htmlmin": "^1.2.0",
+    "gulp-jscs": "^3.0.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.2",
+    "gulp-watch": "^4.3.5"
+  }
+}

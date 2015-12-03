@@ -1,0 +1,28 @@
+$color-black: rgba(0, 0, 0, .5);
+$color-white: #fff;
+$color-brand: #65cdbd;
+$color-brand-dark: rgb(67,144,132);
+
+
+$mobile-width: 320px;
+$tablet-width: 1023px;
+$desktop-width: 1024px;
+
+
+@mixin mobile {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+ }

@@ -1,0 +1,13 @@
+<div class="input-group">
+    <span class="input-group-btn">
+        <span class="btn btn-primary btn-file">
+            Browse&hellip;
+            <input type="file" ng-file-select="onFileSelect($files)" >
+        </span>
+    </span>
+    <input type="text" class="form-control" readonly>
+</div>
+
+<div class="text-center top20">
+    <button type="button" class="btn btn-primary" ng-show="imageLoaded" ui-sref="mark">Mark it!</button>
+</div>

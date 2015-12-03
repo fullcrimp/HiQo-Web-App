@@ -1,0 +1,71 @@
+
+html, body {
+    height: 100%;
+}
+
+.parallax-window {
+    // background-image: url('../img/markable_website_banner_test_blured.jpg');
+    // background-color: #fff;
+    background-position: center center;
+    background-size: cover;
+    // color: white;
+    text-align: center;
+    padding-top: 50px;
+
+    h1 {
+        font-weight: 300;
+        font-size: 55px;
+        line-height: 52px;
+        color: #5bc4b4;
+        text-align: center;
+        // text-shadow: 0px 0px 10px rgba(0,0,0,0.41);
+    }
+
+    .btn {
+        // width: 200px;
+    }
+
+    .nav-tabs {
+        border-bottom: 2px solid #ddd;
+    }
+
+    .nav-tabs .nav-item {
+        margin-bottom: -2px;
+    }
+
+    .nav-tabs .nav-link {
+        border-width: 2px;
+        border-radius: 0;
+        border-bottom: 0;
+
+        &.active {
+            border-color: #ddd;
+        }
+    }
+
+    .tabs {
+        background-color: #fff;
+        // margin: 20px 20px;
+        border: 2px solid #ccc;
+        border-top: 0;
+        padding: 20px;
+
+        .form-control {
+            background-color: #eceeef;
+        }
+
+        .input-group-addon {
+            border: 0;
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+
+
+}
+
+.fill-height {
+    min-height: 100%;
+    height: 100%;
+}

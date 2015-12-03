@@ -1,0 +1,10 @@
+<div class="input-group">
+    <input type="text" class="form-control image-url" ng-model="imageUrl" placeholder="http://" ng-change="loadImage()">
+    <span class="input-group-btn">
+        <span class="btn btn-primary">
+            Load</span>
+    </span>
+</div>
+<div class="text-center top20">
+    <button type="button" class="btn btn-primary" ng-show="imageUrl" ui-sref="mark">Mark it!</button>
+</div>
